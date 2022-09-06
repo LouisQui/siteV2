@@ -160,7 +160,7 @@ margin-left: 13%;
         grid-row-gap: 0px;
     }
 
-#firstleft{
+#firsleft{
     display: none !important;
     line-height: 2vh !important;
     width: 70% !important;
@@ -192,11 +192,6 @@ margin-left: 13%;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
- .firstleft{
-
-display: none !important;
-    width: 77% !important;
- }
 
     }
 /* END ACCUEIL EN 3 PARTIE */
