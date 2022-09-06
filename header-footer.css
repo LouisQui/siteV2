@@ -161,6 +161,7 @@ margin-left: 13%;
     }
 
 #firstleft{
+    display: none !important;
     line-height: 2vh !important;
     width: 70% !important;
     margin-left: 13%;
@@ -192,6 +193,8 @@ margin-left: 13%;
         grid-row-gap: 0px;
         }
  .firstleft{
+
+display: none !important;
     width: 77% !important;
  }
 
