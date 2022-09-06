@@ -1,0 +1,257 @@
+/* NAVIGATION */
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.navigation:hover{
+    border-bottom: #fff 2px solid;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+.logo{
+    width: 65%;
+    font-weight: 900;
+    font-size: 158%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+.connection{
+    height: 27px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+@media all and (max-device-width:992px){ 
+ nav ul {justify-content: space-around;
+display: flex;}
+
+.logo{
+    justify-content: center !important;
+    width: 80% !important;
+    margin-left: 21% !important;
+    font-weight: 900;
+    font-size: 158%;
+    margin-top: 0px;
+    margin-bottom: 3% !important;
+    margin-left: 20px;
+    align-items: center;
+}
+nav{
+flex-wrap: wrap !important;
+}
+
+
+.firstleft{
+    width: 60% !important;
+    margin-left: 13%;
+}
+  }
+/* END NAVIGATION */
+
+
+/* ACCUEIL EN 3 PARTIE */
+
+.threeparts {
+    position: relative;
+    display: grid;
+    grid-template-columns: 34.13% 36.73% 29.14%;
+    grid-template-rows: 1fr;
+    min-height: min(27rem);
+    padding: 0rem 0 min(2.7777777778vw,2.5rem);
+    z-index: 10;
+}
+
+
+#firsleft{
+
+width: 100%;
+margin-left: 13%;
+
+}
+.textmaj{
+    margin-top: 20%;
+    padding-right: 52%;
+    font-size: 1em;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.textgros{
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+    font-size: 46px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  
+.textpetit{
+    margin: 0%;
+    padding: 0%;
+  }
+
+#logoanimate{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+#sectionTest{
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30%;
+}
+
+
+
+#testintt{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    outline: 0;
+    border: 1 #fff;
+    box-shadow: none;
+}
+
+.movetext{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 100px;
+    position:absolute;
+    top: 800px;
+
+
+}
+
+@media all and (max-device-width:992px){
+
+    .threeparts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+#firstleft{
+    line-height: 2vh !important;
+    width: 70% !important;
+    margin-left: 13%;
+}
+
+.textmaj{
+    color: #fff;
+    font-size: 0.7rem !important;
+    margin-top: 7% !important;
+    padding-right: 52%;
+    font-size: 1em;
+    font-weight: 100;
+    padding-bottom: 10px;
+  }
+
+  #logoanimate{
+    display: none !important;
+  }
+
+}
+
+@media all and (max-device-width: 500px){
+    
+        .threeparts{ 
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+ .firstleft{
+    width: 77% !important;
+ }
+
+    }
+/* END ACCUEIL EN 3 PARTIE */
+
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    margin: 0;
+    padding: 5%;
+    background-color: #F2F2F2;
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+}
+
+.footleft{
+    width: 77%;
+    padding-left: 3%;
+}
+.footerlogo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logosociaux{
+    padding-left: 30px;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+ul{
+    margin-top: 0%;
+    color: black;
+}
+
+ul h3{
+    margin-top: 0%;
+    color: black;
+}
+
+.footleft p{
+color: black;
+}
+
+.help{
+    display: flex;
+    align-items: flex-start;
+  
+    
+}
+.help a{
+   color: black;
+   }
+   .help h3{
+    margin-bottom: 10%;
+    margin-top: 21%;
+   }
+    
+/* END FOOTER */

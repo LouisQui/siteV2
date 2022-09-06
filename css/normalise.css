@@ -1,0 +1,134 @@
+body {
+  background-color: transparent;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  background: linear-gradient(102deg, #4c0075, #002342 71%);
+  background-attachment: local;
+  padding: 0%;
+  margin: 0%;
+}
+
+main {
+  padding: 0%;
+  width: 100%;
+}
+
+
+li {
+  display: flex;
+  text-align: -webkit-match-parent;
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 10vh;
+  line-height: 4vh;
+  font-weight: 700;
+  padding: 0%;
+  margin: 0%;
+}
+
+h5 {
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+.firstcontent {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.sectiontitle {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.sectiontitle2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 0%;
+
+}
+
+.sectiontitleblack {
+  text-transform: capitalize;
+  color: black;
+  text-align: center;
+  margin-bottom: 8%;
+  margin-top: 0%;
+}
+
+.card {
+
+  background-color: #F2F2F2;
+  margin-top: 16%;
+  border-radius: 2.15em;
+  padding: 6%;
+  padding-bottom: 5%;
+}
+
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: 2.25rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+}
+
+.TRYIT:hover {
+  background-color: rgb(42, 42, 42);
+}
+
+
+@media all and (max-device-width:780px) {
+  body {
+    background-color: transparent;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    background: linear-gradient(102deg, #4c0075, #002342 71%);
+    background-attachment: local;
+    padding: 0%;
+    margin: 0%;
+    width: 100% !important;
+  }
+
+  h1 {
+    font-size: 8vh !important;
+  }
+}
+
+
+@media all and (max-device-width:920px) {
+
+  h1 {
+    font-size: 5vh !important;
+    line-height: 6vh !important;
+  }
+}
