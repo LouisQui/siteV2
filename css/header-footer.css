@@ -40,12 +40,14 @@ nav{
     justify-content: center;
 }
 @media all and (max-device-width:992px){ 
- nav ul {justify-content: space-around;
+ 
+ 
+    nav ul {justify-content: space-around;
 display: flex;}
 
 .logo{
     justify-content: center !important;
-    width: 80% !important;
+    width: 100% !important;
     margin-left: 21% !important;
     font-weight: 900;
     font-size: 158%;
@@ -56,6 +58,10 @@ display: flex;}
 }
 nav{
 flex-wrap: wrap !important;
+}
+
+.connection {
+    height: 35px;
 }
 
 
@@ -159,6 +165,15 @@ margin-left: 13%;
     line-height: 2vh !important;
     width: 70% !important;
     margin-left: 13%;
+    display: none;
+}
+#sectionTest{
+    height: 300px;
+    width: 60%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30%;
 }
 
 .textmaj{
