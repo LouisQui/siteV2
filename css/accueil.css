@@ -414,7 +414,13 @@ details summary::-webkit-details-marker {
   padding: 10% !important;
   padding-bottom: 10%;
  }
+.team-member .team-img {
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
 }
+ }
+
 /*_______________________________________________ROADMAP_________________________________________________________*/
 
 .roadmap {
