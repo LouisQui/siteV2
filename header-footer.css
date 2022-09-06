@@ -43,17 +43,22 @@ nav{
  nav ul {justify-content: space-around;
 display: flex;}
 
-.logo{
+.logo a{
     justify-content: center !important;
-    width: 80% !important;
-    margin-left: 21% !important;
+    width: 100% !important;
+    margin-left: 0% !important;
     font-weight: 900;
     font-size: 158%;
     margin-top: 0px;
     margin-bottom: 3% !important;
-    margin-left: 20px;
+    margin-left: 0px;
     align-items: center;
 }
+.logo p{
+    text-align: center;
+    margin-left: 0% !important;
+}
+
 nav{
 flex-wrap: wrap !important;
 }
