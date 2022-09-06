@@ -153,17 +153,22 @@ margin-left: 13%;
 @media all and (max-device-width:992px){
 
     .threeparts {
-        display: grid;
+        display: none !important;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+
     }
 
 #firsleft{
     display: none !important;
     line-height: 2vh !important;
     width: 70% !important;
+    margin-left: 13%;
+}
+#firsleft {
+    width: 100%;
     margin-left: 13%;
 }
 
