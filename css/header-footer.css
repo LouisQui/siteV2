@@ -239,6 +239,15 @@ footer{
 .logosociaux{
     padding-left: 30px;
 }
+#logo{
+    width: 65%;
+    font-weight: 900;
+    font-size: 6vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    align-items: center;
+}
 
 .social{
     display: flex;
@@ -274,5 +283,60 @@ color: black;
     margin-bottom: 10%;
     margin-top: 21%;
    }
-    
+   
+   
+   
+   @media all and (max-device-width:992px){
+
+#logo { 
+   width: 65%;
+   font-weight: 900;
+   font-size: 158%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 20px;
+   align-items: center;
+   font-size: 4vh;
+}
+
+
+
+#email{
+    border-right-style: none;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 2.25em;
+    border-color: #b5b5b5;
+    padding: 12px 0px 14px 35px;
+    font-size: 86%;
+    color: black;
+    font-weight: bold;
+}
+}
+
+
+@media all and (max-device-width:442px){
+
+    .help ul{
+        padding-left: 0%;
+        }
+#logo { 
+    width: 65%;
+    font-weight: 900;
+    font-size: 158%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 3vh;
+ }
+ .social
+ {display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-left: -0%;
+}
+
+}
 /* END FOOTER */

@@ -157,6 +157,10 @@
  .boost{
   border-right: none !important;
  }
+
+ .fa-colors {
+  color: rgba(255, 255, 255, 0.383) !important;
+}
 }
 
 /* ___________________________________ PARTNERS ____________________________________
@@ -542,8 +546,11 @@ details summary::-webkit-details-marker {
     box-shadow: 0px 0px 10px rgb(0 0 0 / 0%);
 }
 }
-
-
+@media all and (max-device-width:442px){
+.roadmap {
+  padding: 0% 3% 0% 6%;
+}
+}
 /*_______________________________________________WHYTHEINCENTIVE_________________________________________________________*/
 
 
@@ -604,7 +611,11 @@ details summary::-webkit-details-marker {
 .whytheincentive p {
   margin-bottom: 0%;
 }
-
+@media all and (max-device-width:500px){
+.whytheincentivegrid {
+  margin: 3% 0% 5% 0%;
+}
+}
 /*__________________________________ NEWSLETTER ___________________________________*/
 
 .newss {
@@ -661,5 +672,60 @@ details summary::-webkit-details-marker {
   margin-left: -100px;
 }
 
+@media all and (max-device-width:992px){
+  
+  #email{
+      border-right-style: none;
+      border-left: 3px solid;
+      border-top: 3px solid;
+      border-bottom: 3px solid;
+      border-radius: 2.25em;
+      border-color: #b5b5b5;
+      padding: 12px 0px 14px 35px;
+      font-size: 86%;
+      color: black;
+      font-weight: bold;
+  }
+  #submit input {
+    display: inline-block;
+    background-color: #000000;
+    border-style: none;
+    padding: 13px;
+    padding-right: 44px;
+    padding-left: 44px;
+    border-radius: 2.25em;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    margin-left: -100px;
+}
+  }
+  
 
+@media all and (max-device-width:442px){
+  #submit input {
+      display: inline-block;
+      background-color: #000000;
+      border-style: none;
+      padding: 15px;
+      padding-right: 26px;
+      padding-left: 22px;
+      border-radius: 2.25em;
+      font-size: 78%;
+      color: rgb(255, 255, 255);
+      border: 2px solid #000000;
+      margin-left: -100px;
+  }
+  #email {
+      border-right-style: none;
+      border-left: 3px solid;
+      border-top: 3px solid;
+      border-bottom: 3px solid;
+      border-radius: 2.25em;
+      border-color: #b5b5b5;
+      padding: 12px 0px 14px 11px;
+      font-size: 81%;
+      color: black;
+      font-weight: bold;}
+  }
 /* END NEWSLETTER */
