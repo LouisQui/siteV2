@@ -5,7 +5,7 @@ nav{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin-top: 3%;
+    margin: 3% 0%;
 }
 
 .navigation:hover{
@@ -41,9 +41,7 @@ nav{
 }
 @media all and (max-device-width:992px){ 
  
- .threeparts{
-    display: none !important;
- }
+
     nav ul {
         justify-content: space-around;
     display: flex;  
@@ -82,13 +80,9 @@ nav li{
 /* ACCUEIL EN 3 PARTIE */
 
 .threeparts {
-    position: relative;
-    display: grid;
-    grid-template-columns: 34.13% 36.73% 29.14%;
-    grid-template-rows: 1fr;
-    min-height: min(27rem);
-    padding: 0rem 0 min(2.7777777778vw,2.5rem);
-    z-index: 10;
+
+    display: flex;
+
 }
 
 
@@ -160,23 +154,22 @@ margin-left: 13%;
 @media all and (max-device-width:992px){
 
     .threeparts {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
-#firstleft{
-    line-height: 2vh !important;
-    width: 70% !important;
-    margin-left: 13%;
-    display: none;
+#firsleft{
+    text-align: center;
+    justify-content: center;
+    margin-left: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
 }
 #sectionTest{
     height: 300px;
     width: 60%;
-    display: none;
     align-items: center;
     justify-content: center;
     padding-right: 30%;
@@ -186,11 +179,17 @@ margin-left: 13%;
     color: #fff;
     font-size: 0.7rem !important;
     margin-top: 7% !important;
-    padding-right: 52%;
+    padding-right: 0%;
     font-size: 1em;
     font-weight: 100;
     padding-bottom: 10px;
+    text-align: center;
   }
+
+.textgros{
+    text-align: center;
+}
+
 
   #logoanimate{
     display: none !important;
@@ -200,15 +199,9 @@ margin-left: 13%;
 
 @media all and (max-device-width: 500px){
     
-        .threeparts{ 
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        }
+
  .firstleft{
-    width: 77% !important;
+    width: 68% !important;
  }
 
     }

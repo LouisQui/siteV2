@@ -1,0 +1,40 @@
+
+.configure h1{
+    padding-top: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.configure h3{
+    padding: 4% 0%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.confform{
+    display: flex;
+
+}
+
+
+
+label{
+    width: 100px;
+    float:initial;
+    margin: 0 15px 0 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.configurecompany{
+    padding-bottom: 10% ;
+}
+
+.next{
+    
+}
