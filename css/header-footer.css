@@ -125,18 +125,12 @@ width: 25%;
     align-items: center;
     justify-content: center;
     padding-right: 0%;
+    border: 2px dotted;
+    cursor: pointer;
 }
 
-
-
 #testintt{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: transparent;
-    outline: 0;
-    border: 1 #fff;
-    box-shadow: none;
+    pointer-events: none;
 }
 
 .movetext{
@@ -146,8 +140,6 @@ width: 25%;
     font-size: 100px;
     position:absolute;
     top: 800px;
-
-
 }
 
 @media all and (max-device-width:992px){
