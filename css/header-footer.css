@@ -82,14 +82,13 @@ nav li{
 .threeparts {
 
     display: flex;
+    justify-content: center;
 
 }
 
 
 #firsleft{
-
-width: 100%;
-margin-left: 13%;
+width: 25%;
 
 }
 .textmaj{
@@ -115,13 +114,13 @@ margin-left: 13%;
 
 #logoanimate{
     display: flex;
-    width:100%;
+    width:29%;
     align-items: center;
     justify-content: center;
 }
 #sectionTest{
     height: 300px;
-    width: 60%;
+    width: 29%;
     display: flex;
     align-items: center;
     justify-content: center;
