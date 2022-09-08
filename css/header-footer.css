@@ -205,7 +205,7 @@ width: 25%;
 footer{
     display: flex;
     margin: 0;
-    padding: 5%;
+    padding: 0% 3%;
     background-color: #F2F2F2;
     border-top-left-radius: 2.25rem;
     border-top-right-radius: 2.25rem;
@@ -214,17 +214,21 @@ footer{
 .footleft{
     width: 77%;
     padding-left: 3%;
+    display: flex;
 }
 .footerlogo{
     display: flex;
-    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+
 }
 
 .logosociaux{
     padding-left: 30px;
+
 }
 #logo{
-    width: 65%;
+    width: 100%;
     font-weight: 900;
     font-size: 6vh;
     margin-top: 0px;
@@ -235,9 +239,10 @@ footer{
 
 .social{
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 3%;
-    padding-left: 7%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
 }
 
 ul{
@@ -273,7 +278,7 @@ color: black;
    @media all and (max-device-width:992px){
 
 #logo { 
-   width: 65%;
+   width: 100%;
    font-weight: 900;
    font-size: 158%;
    margin-top: 0px;

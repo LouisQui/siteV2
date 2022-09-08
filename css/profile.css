@@ -1,0 +1,154 @@
+.rewards{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 25%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.balance{
+
+        margin-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3% 33%;
+        padding: 2%;
+        text-align: center;
+        border: 1px white solid;
+        line-height: 160%;
+        font-size: larger;
+        text-decoration:underline;
+        border-radius: 10px;
+    }
+
+.tweetraid{
+    display: flex;
+  margin-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3% 20%;
+        line-height: 160%;
+        font-size: larger;
+        justify-content: space-between;
+}
+.tweetraid a{
+color: black;
+}
+.buttonblanc{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 3%;
+    width: 200px;
+    background-color: white;
+    
+}
+
+.buttondiscord{
+
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin:3% 3% 5% 3%;
+          line-height: 160%;
+          font-size: larger;
+
+}
+
+.discord{
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 6%;
+    width: 150px;
+}
+
+.profile h3{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+
+
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+ 
+    margin: 0% 40%;
+    padding: 1%;
+    font-weight: 900;
+    font-size: larger;
+    margin-bottom: 6%;
+    color: black;
+    }
+
+
+
+.profile .card{
+    margin-top: 11%;
+}
+
+.figure img{
+    width: 60px;
+    height: 60px;
+    
+    
+}
+
+.figure{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.switch{ 
+position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    width: var(--switch-width);
+    height: var(--switch-height);
+    border-radius: 50em;
+    padding: var(--switch-padding) 0;
+}
+
+.buttonpage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+ 
+    margin: 0% 30%;
+    padding: 1%;
+    font-weight: 900;
+    font-size: larger;
+    margin-bottom: 6%;
+    color: black;
+ 
+}
+.statboard{
+    width: 50%;
+
+}
+
+.doublebouton{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.yourpagetheincentive{
+    width: 50%;
+}
