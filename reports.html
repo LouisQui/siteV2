@@ -1,25 +1,89 @@
+<!DOCTYPE html>
+
+<html data-wf-page="TheIncentivePage" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pay your community instead of paying ads</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="css/reports.css" rel="stylesheet" type="text/css">
+    <link href="css/header-footer.css" rel="stylesheet" type="text/css">
+    <link href="css/normalise.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({ google: { families: ["Space Grotesk:300,regular,500,600,700"] } });</script>
+    <script src="https://kit.fontawesome.com/4b8ae7dabf.js" crossorigin="anonymous"></script>
+    <script>!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+    <link href="./static/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="./static/images/webclip.png" rel="apple-touch-icon">
+
+</head>
+
+<body class="body">
+
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                <a href="index.html">
+                    <p class="logo">THE INCENTIVE</p>
+                </a>
+            </div>
+
+            <li class="link">
+                <a href="template/partners.html" class="navigation connection"><button>Dashboard</button></a>
+            </li>
+            <li class="link">
+                <a href="template/partners.html" class="navigation connection"><img src="images/utilisateur.png"></a>
+            </li>
+            <li class="link">
+                <a href="template/partners.html" class="navigation"> partners</a>
+            </li>
+            <li class="link">
+                <a href="template/partners.html" class="navigation"> Roadmap</a>
+            </li>
+            <li class="link">
+                <a href="template/partners.html" class="navigation"> FAQ</a>
+            </li>
+
+        </nav>
+    </header>
 
 
 
 
 
 
+<section class="report">
+
+    <h1>Welcome in your reports analyze & adapt your strategies</h1>
 
 
+<div class="filter"> <label for="reports-select">Choose your reports:</label>
 
+    <select name="report" id="reports">
+        <option value="tweet">Tweet to earn</option>
+        <option value="raids">Raids to earn</option>
+    
+    </select>
 
-<h1>Welcome in your reports analyze & adapt your strategies</h1>
+</div>
 
+<h3 class="raidsortweet">For Tweet to earn :</h3>
 
-
-
-<div class="balance"> Total posts : 0 </br>Total rewards : 0 fjqjgkqdg</br>Last 24H posts : 0</br>Last 24H rewards : 0 fjqjgkqdg
+    <div class="balance"> 
+        Total posts : 0 </br>Total rewards : 0 fjqjgkqdg</br>Last 24H posts : 0</br>Last 24H rewards :
+        0 fjqjgkqdg
     </div>
 
 
 
-<div data-w-id="section-load" class="hero-content-smaller" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-    <div class="title">My reports</div>
+    <div data-w-id="section-load" class="hero-content-smaller"
+        style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
+        <div class="title">My reports</div>
         <h3 class="paragraph-2-center">You are seeing reports from
             <select id="filter">
                 <option value="all">all time</option>
@@ -30,24 +94,50 @@
         </h3>
         (<span id="rewardsCount">0</span> rewards)
         <table id="rewardTable">
-            <tbody><tr>
-                <th>Date</th>
-                <th>Wallet</th>
-                <th>Twitter</th>
-                <th>Tweet</th>
-                <th>Followers(ondate) <span class="filter" onclick="sortTable(this, 4)">⬇️</span></th>
-                <th>Reward <span class="filter" onclick="sortTable(this, 5)">⬇️</span></th>
-                <th>Payed <span class="filter" onclick="sortTable(this, 6, true)">⬇️</span></th>
-            </tr>
-            
-            <tr>
-                <th class="emptyTable"></th>
-                <th class="emptyTable"></th>
-                <th class="emptyTable"></th>
-                <th class="emptyTable"></th>
-                <th id="totalFollowers">0</th>
-                <th id="totalRewards">0</th>
-                <th class="emptyTable"></th>
-            </tr>
-        </tbody></table>
+            <tbody>
+                <tr>
+                    <th>Date</th>
+                    <th>Wallet</th>
+                    <th>Twitter</th>
+                    <th>Tweet</th>
+                    <th>Followers(ondate) <span class="filter" onclick="sortTable(this, 4)">⬇️</span></th>
+                    <th>Reward <span class="filter" onclick="sortTable(this, 5)">⬇️</span></th>
+                    <th>Payed <span class="filter" onclick="sortTable(this, 6, true)">⬇️</span></th>
+                </tr>
+
+                <tr>
+                    <th class="emptyTable"></th>
+                    <th class="emptyTable"></th>
+                    <th class="emptyTable"></th>
+                    <th class="emptyTable"></th>
+                    <th id="totalFollowers">0</th>
+                    <th id="totalRewards">0</th>
+                    <th class="emptyTable"></th>
+                </tr>
+            </tbody>
+        </table>
     </div>
+
+
+</section>
+
+    <footer>
+        <div class="footleft">
+            <div class="footerlogo">
+                <p id="logo">THE INCENTIVE</p>
+            </div>
+            <div class="social">
+                <a href=""> <img src="images/discorde.png" alt=""></a>
+                <a href=""> <img class="logosociaux" src="images/twitter.png" alt=""></a>
+            </div>
+        </div>
+        <div class="help">
+            <ul>
+                <h3>HELP</h3>
+
+                <li> <a href="" class="contact">Contact</a></li>
+                <li> <a href="" class="faq">FAQ</a></li>
+                <li> <a href="" class="myaccount">My Account</a></li>
+            </ul>
+        </div>
+    </footer>

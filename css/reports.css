@@ -1,0 +1,30 @@
+.report h1{padding: 3%;
+}
+
+.filter{
+    display: flex;
+    border-bottom: 1px white solid;
+}
+
+.balance{
+
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 33%;
+    padding: 2%;
+    text-align: center;
+    border: 1px white solid;
+    line-height: 160%;
+    font-size: larger;
+    text-decoration:underline;
+    border-radius: 10px;
+}
+
+
+.raidsortweet{
+    padding: 3%;
+    font-size: x-large;
+    text-decoration: underline;
+}
