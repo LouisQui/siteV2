@@ -1,5 +1,16 @@
 .rewards{
-    margin-top: 5%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 25%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.explication{
+    margin-top: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,12 +37,9 @@
     }
 
 .tweetraid{
-    display: flex;
-  margin-top: 1%;
         display: flex;
-        justify-content: center;
         align-items: center;
-        margin: 3% 20%;
+        margin: 8% 20% 0% 20%;
         line-height: 160%;
         font-size: larger;
         justify-content: space-between;
@@ -71,7 +79,15 @@ color: black;
     color: black;
     height: 69px;
 }
-
+.profile h5{
+    margin-top: 8%;
+    color: #fff;
+    font-weight: 700;
+}
+.profile h1{
+    margin-bottom: 2%;
+    margin-top: 0%;
+}
 .profile h3{
     text-align: center;
     font-size: larger;
@@ -132,7 +148,7 @@ position: relative;
     border-radius: 10px;
     border: 1px solid black;
     background-color: aliceblue;
-    margin: 42px 20% 0% 20%;
+    margin: 42px 26% 42% 26%;
     padding: 1%;
     font-weight: 900;
     font-size: larger;
@@ -150,7 +166,7 @@ position: relative;
     border: 1px solid black;
     background-color: aliceblue;
  
-    margin: 0% 20%;
+    margin: 0% 26%;
     padding: 1%;
     font-weight: 900;
     font-size: larger;
@@ -171,10 +187,39 @@ position: relative;
 
 
 .doublebouton h3{
-    padding: 0% 3%;
+    padding: 0% 14%;
 
 }
 
 .yourpagetheincentive{
     width: 50%;
+}
+
+
+.profile footer{
+    width: 94%;
+}
+
+
+@media all and (max-device-width: 800px) {
+    .tweetraid{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 8% 20% 0% 20%;
+        line-height: 160%;
+        font-size: larger;
+        justify-content: space-between;
+        
+}
+.explication{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 25%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
 }

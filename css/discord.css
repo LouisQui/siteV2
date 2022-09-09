@@ -6,6 +6,7 @@
     line-height: 150%;
     padding: 0% 6%;
     padding-bottom: 0%;
+    margin-top: 3%;
 }
 
 .lottie{
@@ -21,9 +22,9 @@
     border: 1px solid black;
     background-color: aliceblue;
     color: black;
-    margin: 0% 40%;
     padding: 1%;
     font-weight: 900;
     font-size: larger;
     margin-bottom: 6%;
+    width: 15%;
 }
