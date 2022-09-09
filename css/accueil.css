@@ -410,19 +410,10 @@ details summary::-webkit-details-marker {
     padding-left: 1%;
 
  }
- .theteam{
-  background-color: #F2F2F2;
-  margin-top: 10%;
-  border-radius: 2.15em;
-  padding: 10% !important;
-  padding-bottom: 10%;
+ .team-member{
+  padding: 2% 10%;
  }
-.team-member .team-img {
-  position: relative;
-  overflow: hidden;
-  padding: 30px;
 }
- }
 
 /*_______________________________________________ROADMAP_________________________________________________________*/
 
@@ -727,4 +718,5 @@ details summary::-webkit-details-marker {
       color: black;
       font-weight: bold;}
   }
+
 /* END NEWSLETTER */

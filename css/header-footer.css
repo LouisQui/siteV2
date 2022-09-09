@@ -5,7 +5,7 @@ nav{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin: 3% 0%;
+    margin: 1% 0%;
 }
 
 .navigation:hover{
@@ -17,20 +17,46 @@ nav{
     margin-top: 3%;
 }
 .logo{
-    width: 65%;
+    width: 50%;
     font-weight: 900;
     font-size: 158%;
-    margin-top: 0px;
+    margin-top: 19px;
     margin-bottom: 0px;
     margin-left: 20px;
     align-items: center;
+}
+
+.logo a{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+    justify-content: flex-start;
 }
 .navigation{
     display: flex;
     text-transform: uppercase;
     font-weight: bold;
+    margin-right: 10px;
    
 }
+.button2{
+    color: black;
+    background-color: #fff;
+}
+.button2:hover{
+    color: black;
+    background-color: rgb(218, 218, 218);
+}
+
+
+
+
+
+
+
+
 
 .connection{
     height: 27px;
@@ -93,10 +119,11 @@ width: 25%;
 }
 .textmaj{
     margin-top: 20%;
-    padding-right: 52%;
+  
     font-size: 1em;
     font-weight: 100;
-    padding-bottom: 10px;
+    line-height: 3vh;
+    text-align: left;
 }
 .textgros{
     color: #fff;
@@ -127,19 +154,27 @@ width: 25%;
     padding-right: 0%;
     border: 2px dotted;
     cursor: pointer;
+  
 }
 
 #testintt{
     pointer-events: none;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 100%;
+    padding: 5%;
+    width: 200px;
+    height: 200px;
+
 }
 
-.movetext{
+marquee{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    font-size: 100px;
-    position:absolute;
-    top: 800px;
+    font-size: 116px;
+    position: absolute;
+margin: 3% 0% 2% 0%;
 }
 
 @media all and (max-device-width:992px){
@@ -153,11 +188,23 @@ width: 25%;
     text-align: center;
     justify-content: center;
     margin-left: 0%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80%;
+    margin-bottom: 3%;
 
 
 }
+
+.movetext{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 116px;
+    position: absolute;
+margin: 1% 0% 2% 0%;
+}
+
 #sectionTest{
     height: 300px;
     width: 60%;
@@ -195,6 +242,16 @@ width: 25%;
     width: 68% !important;
  }
 
+    }
+
+
+    a{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    
+        margin-bottom: 5%;
     }
 /* END ACCUEIL EN 3 PARTIE */
 
@@ -309,6 +366,7 @@ color: black;
 
     .help ul{
         padding-left: 0%;
+        text-align: center;
         }
 #logo { 
     width: 65%;
@@ -325,6 +383,13 @@ color: black;
     flex-wrap: wrap;
     padding-top: 3%;
     padding-left: -0%;
+    
+}
+.social img{
+    width: 40px;
+}
+.logosociaux{
+    padding-left: 0px;
 }
 
 }

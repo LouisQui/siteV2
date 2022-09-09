@@ -1,5 +1,5 @@
 .rewards{
-    margin-top: 8%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,9 +64,11 @@ color: black;
 .discord{
     text-align: center;
     border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
     border-radius: 10px;
-    padding: 6%;
-    width: 150px;
+    padding: 3%;
+    width: 300px ;
+    color: black;
 }
 
 .profile h3{

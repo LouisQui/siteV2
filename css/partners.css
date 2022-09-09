@@ -1,3 +1,28 @@
+
+
+.sectiontitlepartners {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 0%;
+}
+
+.balance{
+
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 33%;
+  padding: 2%;
+  text-align: center;
+  border: 1px white solid;
+  line-height: 160%;
+  font-size: larger;
+  text-decoration:underline;
+  border-radius: 10px;
+}
+
 .rightpartners{
     display: flex;
     align-items: center;
@@ -50,7 +75,9 @@
     margin-left: 60%;
 }
 
-
+@media all and (max-device-width:600px){
+  body{text-align: center;}
+}
 
 
 
@@ -60,9 +87,6 @@
 
 
 .thepartne{
-   
-margin-top: 10%;
-
 padding: 8%;
 padding-bottom: 10%;
 }
@@ -75,7 +99,13 @@ padding-bottom: 10%;
     gap: 2rem;
     padding-left: 1%;
 }
-
+.team-title {
+  margin: 30px 0 48px;
+  color: #ffffff;
+  text-align: center;
+  font: 100;
+  font-size: large;
+}
 .our-team .team-row {
     margin-left: -40px;
     margin-right: -40px;
@@ -105,13 +135,7 @@ padding-bottom: 10%;
     overflow: hidden;
   }
   
-  .team-title {
-    margin: 30px 0 7px;
-    color: #000000;
-    text-align: center;
-    font: 100;
-    font-size: large;
-  }
+
   .testouille span{
     margin: 30px 0 7px;
     color: #000000;
