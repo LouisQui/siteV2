@@ -331,9 +331,10 @@ details summary::-webkit-details-marker {
 .overlay {
   background-color: rgba(20, 20, 20, .7);
   position: absolute;
+  margin-bottom: 1%;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 99%;
   opacity: 0;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
