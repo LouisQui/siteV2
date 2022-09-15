@@ -414,6 +414,8 @@ details summary::-webkit-details-marker {
     padding-left: 1%;
 
  }
+ .team-details
+ {max-width: 90%;}
  .team-member{
   padding: 2% 10%;
  }
