@@ -124,7 +124,7 @@ button {
     background-color: transparent;
     color: white;
     font-family: 'Space Grotesk', sans-serif;
-    background: linear-gradient(102deg, #4c0075, #002342 71%);
+    background: rgb(9, 7, 35);
     background-attachment: local;
     padding: 0%;
     margin: 0%;
