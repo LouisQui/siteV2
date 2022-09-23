@@ -421,6 +421,7 @@ details summary::-webkit-details-marker {
   padding: 2% 10%;
  }
 }
+<<<<<<< HEAD
 /* ______________________________________NFT________________________________________*/
 
 #nft{
@@ -436,12 +437,24 @@ width: 100%;
 .MuiGrid-grid-md-6{
   justify-content: center;
 }
+=======
+/*_______________________________________________NFT_________________________________________________________*/
+#nft{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5% 10% 0% 10%;
+}
+.MuiGrid-root{ display: flex;
+width: 100%;}
+
+>>>>>>> c26c89f8de2e3628c97f89741c3dd3bbbc78c7e4
 .px-2 {display: flex;
 flex-wrap: wrap;}
 
 .px-2 h1 {
   margin-top:56px;
   margin-bottom: -80px;}
+<<<<<<< HEAD
 
   @media all and (max-device-width:920px){
     .MuiGrid-container{
@@ -464,6 +477,8 @@ justify-content: center;
   }
 
   
+=======
+>>>>>>> c26c89f8de2e3628c97f89741c3dd3bbbc78c7e4
 /*_______________________________________________ROADMAP_________________________________________________________*/
 
 .roadmap {
