@@ -188,13 +188,29 @@ transform: translate(0,0);
     transform: translate(-100%, 0);
   }
 }
-
-
+@media all and (max-device-width:1350px){
+    .scrolltxt2{
+        display: flex;
+        flex-wrap: nowrap ;
+        overflow: hidden;
+        width: 100%;
+        position: absolute;
+        top: 55%;
+    }
+}
 @media all and (max-device-width:992px){
 
     .threeparts {
         display: flex;
         flex-wrap: wrap;
+    }
+    .scrolltxt2{
+        display: flex;
+        flex-wrap: nowrap ;
+        overflow: hidden;
+        width: 100%;
+        position: absolute;
+        top: 90%;
     }
 
 #firsleft{
