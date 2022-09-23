@@ -166,15 +166,29 @@ width: 25%;
     height: 200px;
 
 }
-
-marquee{
+.scrolltxt2{
     display: flex;
+    flex-wrap: nowrap ;
+    overflow: hidden;
     width: 100%;
-    flex-wrap: wrap;
-    font-size: 116px;
     position: absolute;
-margin: 3% 0% 2% 0%;
+    top: 65%;
 }
+.txt{
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    font-size: 116px;
+    animation: scrollTxt 25s linear infinite ;
+}
+@keyframes scrollTxt {
+  0%{
+transform: translate(0,0);
+  }  
+  100%{
+    transform: translate(-100%, 0);
+  }
+}
+
 
 @media all and (max-device-width:992px){
 
@@ -195,14 +209,7 @@ margin: 3% 0% 2% 0%;
 
 }
 
-.movetext{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    font-size: 116px;
-    position: absolute;
-margin: 1% 0% 2% 0%;
-}
+
 
 #sectionTest{
     height: 300px;
