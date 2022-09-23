@@ -353,7 +353,7 @@ details summary::-webkit-details-marker {
   left: 0;
   padding: 5%;
   overflow: hidden;
-  width: 100%;
+  width: 96%;
   z-index: 2;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -414,13 +414,30 @@ details summary::-webkit-details-marker {
     padding-left: 1%;
 
  }
- .team-details
+ .overlay {
+  height: 98%;
+ }
+ .team-img:hover .team-details
  {max-width: 90%;}
  .team-member{
   padding: 2% 10%;
  }
 }
+/*_______________________________________________NFT_________________________________________________________*/
+#nft{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5% 10% 0% 10%;
+}
+.MuiGrid-root{ display: flex;
+width: 100%;}
 
+.px-2 {display: flex;
+flex-wrap: wrap;}
+
+.px-2 h1 {
+  margin-top:56px;
+  margin-bottom: -80px;}
 /*_______________________________________________ROADMAP_________________________________________________________*/
 
 .roadmap {
