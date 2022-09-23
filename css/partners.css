@@ -226,3 +226,15 @@ padding-bottom: 10%;
     color: #fff;
     background-color: #355c7d;
   }
+  @media all and (max-device-width:600px) {
+
+  .testouille{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 2rem;
+    padding-left: 1%;
+}
+  }
+
