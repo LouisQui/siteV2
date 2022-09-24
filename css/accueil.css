@@ -13,8 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: #000000 1px solid;
-  border-radius: 100%;
+
   width: 40px;
   height: 40px;
   margin: 0px 30% 0% 34%;
@@ -53,14 +52,14 @@
 
 }
 
-@media all and (max-device-width:780px){
+@media all and (max-device-width:780px) {
   .howitworking {
     display: grid;
     grid-template-columns: repeat(1, 3fr) !important;
     grid-template-rows: 3fr !important;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
- }
+  }
 }
 
 
@@ -126,7 +125,7 @@
   margin-bottom: 0%;
 }
 
-@media all and (max-device-width:992px){ 
+@media all and (max-device-width:992px) {
 
   .whytheincentive {
     display: grid;
@@ -138,26 +137,28 @@
     color: #000;
   }
 
-  
 
-.increase {
- 
-  border-right: rgb(100, 100, 100) solid 1px !important;
-}
 
- .flash{
-  border-right: none !important;
- }
- .anti-bot{
-  border-right: none !important;
- }
- .boost{
-  border-right: none !important;
- }
+  .increase {
 
- .fa-colors {
-  color: rgb(255, 255, 255) !important;
-}
+    border-right: rgb(100, 100, 100) solid 1px !important;
+  }
+
+  .flash {
+    border-right: none !important;
+  }
+
+  .anti-bot {
+    border-right: none !important;
+  }
+
+  .boost {
+    border-right: none !important;
+  }
+
+  .fa-colors {
+    color: rgb(255, 255, 255) !important;
+  }
 }
 
 /* ___________________________________ PARTNERS ____________________________________
@@ -259,7 +260,7 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-.fa-chevron-down{
+.fa-chevron-down {
   padding-right: 30px;
 }
 
@@ -403,7 +404,7 @@ details summary::-webkit-details-marker {
   background-color: #355c7d;
 }
 
-@media all and (max-device-width:780px){
+@media all and (max-device-width:780px) {
   .testouille {
     display: grid;
     grid-template-columns: 1fr !important;
@@ -411,57 +412,71 @@ details summary::-webkit-details-marker {
     gap: 2rem !important;
     padding-left: 1%;
 
- }
- .overlay {
-  height: 98%;
- }
- .team-img:hover .team-details
- {max-width: 90%;}
- .team-member{
-  padding: 2% 10%;
- }
+  }
+
+  .overlay {
+    height: 98%;
+  }
+
+  .team-img:hover .team-details {
+    max-width: 90%;
+  }
+
+  .team-member {
+    padding: 2% 10%;
+  }
 }
 
 /* ______________________________________NFT________________________________________*/
 
-#nft{
+#nft {
   display: flex;
   flex-wrap: nowrap;
   margin: 5% 10% 0% 10%;
 }
-.MuiGrid-root{ 
+
+.MuiGrid-root {
   display: flex;
   justify-content: center;
-width: 100%;
+  width: 100%;
 }
-.MuiGrid-grid-md-6{
+
+.MuiGrid-grid-md-6 {
   justify-content: center;
 }
-.px-2 {display: flex;
-flex-wrap: wrap;}
+
+.px-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .px-2 h1 {
-  margin-top:56px;
-  margin-bottom: -80px;}
-  @media all and (max-device-width:920px){
-    .MuiGrid-container{
+  margin-top: 56px;
+  margin-bottom: -80px;
+}
+
+@media all and (max-device-width:920px) {
+  .MuiGrid-container {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     justify-content: center;
-   }
-   .px-4{
-    justify-content: center;
-   }
-   .px-2 h1{
-margin-bottom: 0%;
-justify-content: center;
-   }
-   .px-2{
-
-  text-align: center;
-    justify-content: center;
-       }
   }
+
+  .px-4 {
+    justify-content: center;
+  }
+
+  .px-2 h1 {
+    margin-bottom: 0%;
+    justify-content: center;
+  }
+
+  .px-2 {
+
+    text-align: center;
+    justify-content: center;
+  }
+}
 
 /*_______________________________________________ROADMAP_________________________________________________________*/
 
@@ -571,24 +586,27 @@ justify-content: center;
 
 
 
-  @media all and (max-device-width:780px){
-    .timeline ul li {
-      padding: 40px 0px 40px 0px !important;
-      position: relative;
-      cursor: pointer;
-      transition: .5s;
+@media all and (max-device-width:780px) {
+  .timeline ul li {
+    padding: 40px 0px 40px 0px !important;
+    position: relative;
+    cursor: pointer;
+    transition: .5s;
   }
+
   .timeline {
     color: #fff;
     padding: 30px 0px !important;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 0%);
+  }
 }
+
+@media all and (max-device-width:442px) {
+  .roadmap {
+    padding: 0% 3% 0% 6%;
+  }
 }
-@media all and (max-device-width:442px){
-.roadmap {
-  padding: 0% 3% 0% 6%;
-}
-}
+
 /*_______________________________________________WHYTHEINCENTIVE_________________________________________________________*/
 
 
@@ -649,11 +667,13 @@ justify-content: center;
 .whytheincentive p {
   margin-bottom: 0%;
 }
-@media all and (max-device-width:500px){
-.whytheincentivegrid {
-  margin: 3% 0% 5% 0%;
+
+@media all and (max-device-width:500px) {
+  .whytheincentivegrid {
+    margin: 3% 0% 5% 0%;
+  }
 }
-}
+
 /*__________________________________ NEWSLETTER ___________________________________*/
 
 .newss {
@@ -710,20 +730,21 @@ justify-content: center;
   margin-left: -100px;
 }
 
-@media all and (max-device-width:992px){
-  
-  #email{
-      border-right-style: none;
-      border-left: 3px solid;
-      border-top: 3px solid;
-      border-bottom: 3px solid;
-      border-radius: 2.25em;
-      border-color: #b5b5b5;
-      padding: 12px 0px 14px 35px;
-      font-size: 86%;
-      color: black;
-      font-weight: bold;
+@media all and (max-device-width:992px) {
+
+  #email {
+    border-right-style: none;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 2.25em;
+    border-color: #b5b5b5;
+    padding: 12px 0px 14px 35px;
+    font-size: 86%;
+    color: black;
+    font-weight: bold;
   }
+
   #submit input {
     display: inline-block;
     background-color: #000000;
@@ -736,35 +757,37 @@ justify-content: center;
     color: rgb(255, 255, 255);
     border: 2px solid #000000;
     margin-left: -100px;
+  }
 }
-  }
-  
 
-@media all and (max-device-width:442px){
+
+@media all and (max-device-width:442px) {
   #submit input {
-      display: inline-block;
-      background-color: #000000;
-      border-style: none;
-      padding: 15px;
-      padding-right: 26px;
-      padding-left: 22px;
-      border-radius: 2.25em;
-      font-size: 78%;
-      color: rgb(255, 255, 255);
-      border: 2px solid #000000;
-      margin-left: -100px;
+    display: inline-block;
+    background-color: #000000;
+    border-style: none;
+    padding: 15px;
+    padding-right: 26px;
+    padding-left: 22px;
+    border-radius: 2.25em;
+    font-size: 78%;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    margin-left: -100px;
   }
+
   #email {
-      border-right-style: none;
-      border-left: 3px solid;
-      border-top: 3px solid;
-      border-bottom: 3px solid;
-      border-radius: 2.25em;
-      border-color: #b5b5b5;
-      padding: 12px 0px 14px 11px;
-      font-size: 81%;
-      color: black;
-      font-weight: bold;}
+    border-right-style: none;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 2.25em;
+    border-color: #b5b5b5;
+    padding: 12px 0px 14px 11px;
+    font-size: 81%;
+    color: black;
+    font-weight: bold;
   }
+}
 
 /* END NEWSLETTER */

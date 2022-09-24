@@ -119,6 +119,19 @@ button {
 }
 
 
+/*_______________animation__________________*/
+
+.card{
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
 @media all and (max-device-width:780px) {
   body {
     background-color: transparent;
